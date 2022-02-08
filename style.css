@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    height: 100vh;
+    text-align: center;
+    font-family: 'Pontano Sans', sans-serif;
+    background: linear-gradient(to right, #70e1f5, #ecc796);
+
+}
+
+.dayDate
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    font-size: 1.5rem
+}
+
+
+.input
+{   
+    padding: 1% 15%;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 1.8rem;
+    background-color: royalblue;
+
+}
+.input #weatherLocation
+{
+    
+    padding: 2%;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    text-indent: 40px;
+
+    
+}
+
+.weatherIcon
+{
+    
+    width: 180px;
+    height: 180px;
+  
+
+}
+
+.weatherDetails
+{
+    padding: 3% 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+.footer
+{
+    background-color: aqua;
+    font-size: 1.3rem;
+    padding:  1% 10% ;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+@media only screen and (max-width: 500px) 
+{
+    .dayDate
+
+    {
+      
+      font-size: 1rem;
+      
+    }
+    .input
+    {
+        font-size: 1.4rem;
+        padding: 2% 20%;
+
+    }
+    .weatherDetails
+    {
+        font-size: 1rem;
+    }
+}
